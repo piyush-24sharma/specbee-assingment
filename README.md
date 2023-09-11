@@ -31,3 +31,9 @@ Any service calls should be done using Dependency Injection. Any direct calls to
 Ensure your code must follow Drupal coding standards and DrupalPractice code standards using PHP CodeSniffer. 
 Once done, please share the Github URL of the module.  If you don't have a GitHub profile please create one. Any kind of Zip files will not be entertained
 The GitHub repository MUST have at least 3 commits from your username with proper commit messages.
+
+
+**Post installation instruction:**
+After installion of module Go to Block Layout page and place the block **DateTimeLocationBlock** in any region of active theme.
+After that go to module configuration link from module details and there you can update the Country, City and Timezone and check changes on block.
+
