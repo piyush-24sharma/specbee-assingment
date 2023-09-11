@@ -1,0 +1,4 @@
+services:
+  specbee_date_location.data_service:
+    class: Drupal\specbee_date_location\DataService
+    arguments: ['@config.factory','@datetime.time', '@date.formatter']
