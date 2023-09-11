@@ -1,0 +1,9 @@
+name: Specbee Date Location
+type: module
+description: Provide custom configuration form for date time and location.
+core_version_requirement: ^9.2 || ^10
+configure: specbee_date_location.settings_form
+dependencies:
+ - drupal:datetime
+
+package: 'SPECBEE'
